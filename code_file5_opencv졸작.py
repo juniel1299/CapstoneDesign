@@ -8,7 +8,7 @@ import time
 
 
 
-def a_star_algorithm(start, goal, cost_map):
+def a_star_algorithm(start, goal, cost_map): #A*알고리즘 코드 
     [m, n] = cost_map.shape
     open_list = [start]
     closed_list = np.zeros((m, n), dtype=bool)
