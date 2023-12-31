@@ -161,7 +161,7 @@ def opencv_gb_recognize():
         point_blue = None
         point_green = None
 
-        # 빨간색 관련 코드 (좌표값)
+        # 파란색 관련 코드 (좌표값)
         for contour in contours_blue:
             [x, y, w, h] = cv2.boundingRect(contour)
 
