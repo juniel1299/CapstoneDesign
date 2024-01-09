@@ -12,10 +12,10 @@ def a_star_algorithm(start, goal, cost_map): #A*알고리즘 코드
     [m, n] = cost_map.shape
     open_list = [start]
     closed_list = np.zeros((m, n), dtype=bool)
-    g_score = np.inf * np.ones((m, n))
+    g_score = np.inf * np.ones((m, n)) # goal score 
     g_score[start[0], start[1]] = 0
-    f_score = np.inf * np.ones((m, n))
-    f_score[start[0], start[1]] = h_func(start, goal)
+    f_score = np.inf * np.ones((m, n)) # fail score 
+    f_score[start[0], start[1]] = h_func(start, goal) 
     parent = np.zeros((m, n, 2), dtype=int)
 
     while open_list:
