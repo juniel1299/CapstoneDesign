@@ -1,4 +1,5 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=자율주행&nbsp;최단경로&nbsp;추종&nbsp;차량&fontSize=50)
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=자율주행&nbsp;최단경로&nbsp;추종&nbsp;차량&fontSize=50)   
+  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjuniel1299%2FCapstoneDesign%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 # Capstone Design 
 ## 주제 : Shortest path following vehicle (자율주행 최단경로 추종 차량)
 - 개발환경 window + Linux(Raspberry PI , Ubuntu) [ 최종적으로는 window만 이용하였습니다. 이유는 아래 참고 ]
