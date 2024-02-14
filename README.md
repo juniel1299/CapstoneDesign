@@ -6,7 +6,10 @@
 -  LANG : python , C (Arduino)
 - lib: numpy , opencv(cv2) , time , math , pyserial , etc...
 - HW : lidar ( YDLIDAR X2 ) , Raspberry PI 4B , L298N Motor Driver , Arduino Uno , DC Motor (No encoder) , Wheel , SmartPhone Camera [ 최종적으로 Raspberry Pi , lidar 센서는 이용하지 않았습니다. 이유는 아래 참고 ]
-- Algorithm : A* Algorithm , Pure persuit Algorithm   
+- Algorithm : A* Algorithm , Pure persuit Algorithm
+
+
+
 ![py](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) ![c](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)  <br/>
 ![window](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)   <br/>
 ![arduino](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)<br/>
