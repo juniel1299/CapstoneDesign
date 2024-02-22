@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=자율주행&nbsp;최단경로&nbsp;추종&nbsp;차량&fontSize=50)   
   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjuniel1299%2FCapstoneDesign%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 # Capstone Design 
-# 주제 : Shortest path following vehicle (자율주행 최단경로 추종 차량)
+# 주제 : Shortest Path Following Vehicle (자율주행 최단경로 추종 차량)
 ## 개발환경
  window + Linux(Raspberry PI , Ubuntu)   [ 최종적으로는 window만 이용하였습니다. 이유는 아래 참고 ]
 ## LANGUAGE
@@ -46,15 +46,15 @@ opencv 앞에서 나온 각도값과 알고리즘에서 사용하는 계산 값�
 
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) 사용 언어를 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)으로 하였는데 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)은 언어 자체에 포인터가 없기 때문에 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 라이브러리를 통하여 눈에 보이지 않는 가상의 행렬을 화면에 깔아 임의적으로 xy좌표를 생성해 현재 차량 위치에 대한 좌표, 출발점 , 도착점 등 다양한 좌표값을 생성해낼 수 있음 .  
 
-차량의 현재 위치 , 차량의 기울어짐(각도) , 장애물들을 색깔을 이용하여 카메라가 인식을 하여 데이터를 얻어내고 그 데이터를 알고리즘에서 사용함 -> A* 알고리즘의 경우 차량의 현재 위치 , 장애물에 대한 데이터를 이용하며 Pure Pursuit의 경우 차량의 기울어짐(각도). 현재 위치를 이용해 차량이 어떻게 기울어지지 않고 이동할 수 있는지 계산할 때 이용됨 .   
+차량의 현재 위치 , 차량의 기울어짐(각도) , 장애물들을 색깔을 이용하여 카메라가 인식을 하여 데이터를 얻어내고 그 데이터를 알고리즘에서 사용함 -> A* 알고리즘의 경우 차량의 현재 위치 , 장애물에 대한 데이터를 이용하며 Pure Pursuit의 경우 차량의 기울어짐(각도). 현재 위치를 이용해 차량이 어떻게 기울어지지 않고 이동할 수 있는지 계산할 때 이용됨 .     
 
-교내 전기공학과 캡스톤 경진대회 수상하였음 .
+교내 전기공학과 캡스톤 경진대회 수상하였음 .  
 
-수상 파일은 리포지토리 안에 존재. 
+수상 파일은 리포지토리 안에 존재. (**수상_front.jpg**,**수상_inside.jpg**)  
 
-동작은 안에 동영상 파일을 통해 확인.
+동작은 안에 동영상 파일을 통해 확인. (**Play.mp4**)  
 
-자세한 내용은 해당 리포지토리에 첨부한 ppt 자료를 통해 확인하시길 바랍니다.
+자세한 내용은 해당 리포지토리에 첨부한 ppt 자료를 통해 확인하시길 바랍니다. (**캡스톤디자인_최종보고서PPT.pdf**) 
 
 
 ---
