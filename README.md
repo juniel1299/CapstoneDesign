@@ -40,9 +40,11 @@ A* Algorithm , Pure persuit Algorithm
 
 # 해당 프로젝트에서의 본인의 역할
 
-기존에 사용하려던 라이다 센서를 제거하는 대신 맵 중앙 위치의 천장에 휴대폰 거치대를 설치 -> 휴대폰 거치대에 휴대폰을 놓은 뒤 맵 전체를 카메라를 통해 촬영 -> ip webcam 을 통하여 같은 와이파이 안에 접속한 휴대폰의 촬영 화면을 컴퓨터와 공유 -> vscode 화면 캡쳐 주소를 ip webcam 주소로 설정하여 코드 실행시 휴대폰 카메라가 촬영하는 화면을 그대로 가져옴
-opencv 사용 언어를 python으로 하여 언어 자체에 포인터가 없는 python이기 때문에 numpy 라이브러리를 통하여 눈에 보이지 않는 가상의 행렬을 화면에 깔아 임의적으로 xy좌표를 생성해 현재 차량 위치에 대한 좌표, 출발점 , 도착점 등 다양한 좌표값을 생성해낼 수 있음 .
-차량의 현재 위치 , 차량의 기울어짐(각도) , 장애물들을 색깔을 이용하여 카메라가 인식을 하여 데이터를 얻어내고 그 데이터를 알고리즘에서 사용함 -> A* 알고리즘의 경우 차량의 현재 위치 , 장애물에 대한 데이터를 이용하며 Pure Pursuit의 경우 차량의 기울어짐(각도). 현재 위치를 이용해 차량이 어떻게 기울어지지 않고 이동할 수 있는지 계산할 때 이용됨 .
+기존에 사용하려던 라이다 센서를 제거하는 대신 맵 중앙 위치의 천장에 휴대폰 거치대를 설치 -> 휴대폰 거치대에 휴대폰을 놓은 뒤 맵 전체를 카메라를 통해 촬영 -> ip webcam 을 통하여 같은 와이파이 안에 접속한 휴대폰의 촬영 화면을 컴퓨터와 공유 -> vscode 화면 캡쳐 주소를 ip webcam 주소로 설정하여 코드 실행시 휴대폰 카메라가 촬영하는 화면을 그대로 가져옴   
+
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) 사용 언어를 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)으로 하였는데 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)은 언어 자체에 포인터가 없기 때문에 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 라이브러리를 통하여 눈에 보이지 않는 가상의 행렬을 화면에 깔아 임의적으로 xy좌표를 생성해 현재 차량 위치에 대한 좌표, 출발점 , 도착점 등 다양한 좌표값을 생성해낼 수 있음 .  
+
+차량의 현재 위치 , 차량의 기울어짐(각도) , 장애물들을 색깔을 이용하여 카메라가 인식을 하여 데이터를 얻어내고 그 데이터를 알고리즘에서 사용함 -> A* 알고리즘의 경우 차량의 현재 위치 , 장애물에 대한 데이터를 이용하며 Pure Pursuit의 경우 차량의 기울어짐(각도). 현재 위치를 이용해 차량이 어떻게 기울어지지 않고 이동할 수 있는지 계산할 때 이용됨 .   
 
 교내 전기공학과 캡스톤 경진대회 수상하였음 .
 
