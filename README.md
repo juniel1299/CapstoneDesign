@@ -65,6 +65,12 @@ opencv 앞에서 나온 각도값과 알고리즘에서 사용하는 계산 값�
 
 자세한 내용은 해당 리포지토리에 첨부한 ppt 자료를 통해 확인하시길 바랍니다. (**[캡스톤디자인_최종보고서PPT.pdf](https://github.com/juniel1299/CapstoneDesign/blob/main/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9CPPT.pdf)**) 
 
+## 시연 영상
+
+
+
+https://github.com/juniel1299/CapstoneDesign/assets/62318700/8ac97ec9-4746-4a70-bc46-1ea80fd3dec5
+
 
 ---
 
