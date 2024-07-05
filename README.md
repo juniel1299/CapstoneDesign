@@ -6,6 +6,7 @@
 <h1>💻 Capstone Design(졸업 작품) <br>
 주제 : Shortest Path Following Vehicle (자율주행 최단경로 추종 차량)
 </h1>
+
   <h2> 프로젝트 기간 : 2023년 3월 15일 ~ 2023년 11월 29일 (총 260일) <br>
     프로젝트 총 인원 : 4명
 </h2>
@@ -17,32 +18,42 @@
   -> 화면 전체를 numPy를 활용하여 좌표값을 부여 , 색을 통해 장애물, 현재 차량의 위치와 기울어짐을 계산  <br>
   -> 촬영 화면을 클릭하여 출발점과 도착점을 지정 <br>
   -> 출발점과 도착점의 최단 경로를 계산 후 해당 경로를 따라서 차량이 이동하도록 설계하였습니다. 
+
+  ---
   
-## :pushp
- window + Linux(Raspberry PI , Ubuntu)   [ 최종적으로는 window만 이용하였습니다. 이유는 아래 참고 ]
-## LANGUAGE
-python , C (Arduino)
-## lib
-numpy , opencv(cv2) , time , math , pyserial , etc...
-## HW 
-lidar ( YDLIDAR X2 ) , Raspberry PI 4B , L298N Motor Driver , Arduino Uno , DC Motor (No encoder) , Wheel , SmartPhone Camera [ 최종적으로 Raspberry Pi , lidar 센서는 이용하지 않았습니다. 이유는 아래 참고 ]
-## Algorithm
-A* Algorithm , Pure persuit Algorithm
+<h2> :pushpin: 상세기능 </h2>
+1. opencv 라이브러리를 통해 파란색, 초록색, 노란색을 인식합니다. <br>
+2. Python 언어 특성상 포인터가 존재하지 않으므로 numPy 라이브러리를 통해 카메라를 통해 촬영되는 화면에 좌표값을 지정합니다. <br>
+3. 차량에 부착되어 있는 파란색을 인식하여 차량의 현재 위치를 알 수 있습니다. <br>
+4. 차량 앞 부분에 있는 초록색과 차량 뒷 부분에 있는 파란색을 인식하여 두 색에 대한 각도를 통해 현재 차량이 얼마나 기울어져 있는가를 계산하였습니다. <br>
+5. 최단경로의 경우 A* 알고리즘을 활용하여 최단경로를 출력하였습니다. <br>
 
 --- 
 
 
-<div align="center">
-## 요약     
-  
-![py](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) ![c](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)  <br/>
-![window](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)   <br/>
-![arduino](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)<br/>
-![vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)<br/>
+<h2> 📕 Skill </h2>
 
-</div>
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
 ---
+
+<h2> :telescope: IDE </h2>
+
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Octave](https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683)
+
+---
+<h2> 🗄 Document </h2>
+
+<div><a src="https://github.com/juniel1299/CapstoneDesign/blob/main/%EC%BA%A1%EC%8A%A4%ED%86%A42_3%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C_%EC%9E%A5%EC%9B%90%EC%A4%80_60195101_7%EC%A1%B0.pdf"> 최종 개인 보고서 </a></div>
+<div><a src="https://github.com/juniel1299/CapstoneDesign/blob/main/%EC%88%98%EC%83%81_inside.jpg"> 수상 내역 </a></div>
+<div><a src="https://github.com/juniel1299/CapstoneDesign/blob/main/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9CPPT.pdf"> 최종 PPT </a>  </div>
+
+
 
 최종에서 라즈베리파이와 라이다 센서에 대한 사용을 하지 않는 것으로 수정
 
