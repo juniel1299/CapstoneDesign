@@ -3,9 +3,22 @@
 
 
 
-# Capstone Design 
-# 주제 : Shortest Path Following Vehicle (자율주행 최단경로 추종 차량)
-## 개발환경
+<h1>💻 Capstone Design(졸업 작품) <br>
+주제 : Shortest Path Following Vehicle (자율주행 최단경로 추종 차량)
+</h1>
+  <h2> 프로젝트 기간 : 2023년 3월 15일 ~ 2023년 11월 29일 (총 260일) <br>
+    프로젝트 총 인원 : 4명
+</h2>
+
+<h2>
+  📝 요약
+</h2>
+  천장에 설치된 카메라를 통해 맵 전체를 촬영 <br>
+  -> 화면 전체를 numPy를 활용하여 좌표값을 부여 , 색을 통해 장애물, 현재 차량의 위치와 기울어짐을 계산  <br>
+  -> 촬영 화면을 클릭하여 출발점과 도착점을 지정 <br>
+  -> 출발점과 도착점의 최단 경로를 계산 후 해당 경로를 따라서 차량이 이동하도록 설계하였습니다. 
+  
+## :pushp
  window + Linux(Raspberry PI , Ubuntu)   [ 최종적으로는 window만 이용하였습니다. 이유는 아래 참고 ]
 ## LANGUAGE
 python , C (Arduino)
